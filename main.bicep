@@ -22,7 +22,7 @@ param vmName          string = 'VM1'
 param vmAdminUserName string = 'localadmin'
 @secure()
 param vmAdminPassword string
-param vmScript        string = 'script0.ps1'
+param vmScript        string = 'script1.ps1'
 param vmDsc           string = 'config42'
 
 resource rg 'Microsoft.Resources/resourceGroups@2021-04-01' = {
