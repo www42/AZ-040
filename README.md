@@ -2,11 +2,11 @@
 
 ## TODO
 
-Add course to [Skillpipe](https://skillpipe.com)
+* Add course to [Skillpipe](https://skillpipe.com)
 
-Register with Training Key at [Skillable](https://brainymotion.learnondemand.net)
+* Register with Training Key at [Skillable](https://brainymotion.learnondemand.net)
 
-[Prepare Azure](PrepareAzure.md.md)
+* [Prepare Azure](PrepareAzure.md.md)
 
 
 
