@@ -1,4 +1,4 @@
-# TODO
+# Prepare Azure
 
 ## Create Mirosoft account
 
