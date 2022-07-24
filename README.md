@@ -6,7 +6,7 @@
 
 * Register with Training Key at [Skillable](https://brainymotion.learnondemand.net)
 
-* Prepare Azure [Demo Environment]](PrepareDemoEnvironment.md)
+* Prepare Azure [Demo Environment](PrepareDemoEnvironment.md)
 
 
 
