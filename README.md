@@ -4,7 +4,7 @@
 
 Add course to [Skillpipe](https://skillpipe.com)
 
-Register with Training Key at [Learn on Demand](https://brainymotion.learnondemand.net)
+Register with Training Key at [Skillable](https://brainymotion.learnondemand.net)
 
 [Prepare Azure](PrepareAzure.md.md)
 
