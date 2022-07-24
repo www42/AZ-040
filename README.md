@@ -6,7 +6,7 @@
 
 * Register with Training Key at [Skillable](https://brainymotion.learnondemand.net)
 
-* [Prepare Azure](PrepareAzure.md.md)
+* Prepare Azure [Demo Environment]](PrepareDemoEnvironment.md)
 
 
 
@@ -21,6 +21,18 @@
 * [Microsoft Training and Certification](https://aka.ms/traincertposter)
 
 * [PowerShell Gallery](https://www.powershellgallery.com/)
+
+
+## Presentation references
+
+### Module 1
+
+[PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/)
+[Install and Configure WMF 5.1](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/setup/install-configure)
+[Visual Studio Code](https://code.visualstudio.com/)
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
+[Using Visual Studio Code for PowerShell Development](https://docs.microsoft.com/en-us/powershell/scripting/dev-cross-plat/vscode/using-vscode)
+
 
 
 

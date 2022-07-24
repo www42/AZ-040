@@ -1,4 +1,4 @@
-# Prepare Azure
+# Prepare Demo Environment (Azure)
 
 ## Create Mirosoft account
 
