@@ -12,7 +12,9 @@
 
 ## Useful links
 
-* Learning path [Automate administrative tasks by using PowerShell](https://docs.microsoft.com/en-us/learn/paths/powershell/) on Microsoft Learn
+* [Automate administrative tasks by using PowerShell](https://docs.microsoft.com/en-us/learn/paths/powershell/) (Learning path on Microsoft Learn)
+
+* [Getting Started with PowerShell 3.0 Jump Start](https://www.youtube.com/playlist?list=PLyJiOytEPs4etH7Ujq7PU7jlOlHL-9RmV) with Jeff Snover and Jason Helmick (Playlist at Youtube)
 
 * [Microsoft Training and Certification](https://aka.ms/traincertposter)
 
