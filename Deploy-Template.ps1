@@ -1,5 +1,5 @@
 $Location       = 'westeurope'
-$RgName         = 'Lab-RG'
+$RgName         = 'Demo-RG'
 $AdminPassword  = 'Pa55w.rd1234'
 
 New-AzSubscriptionDeployment `
