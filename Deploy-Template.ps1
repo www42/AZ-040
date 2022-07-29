@@ -3,7 +3,7 @@ $RgName         = 'Demo-RG'
 $AdminPassword  = 'Pa55w.rd1234'
 
 New-AzSubscriptionDeployment `
-    -Name 'labDeployment' `
+    -Name 'demoDeployment' `
     -TemplateFile 'main.bicep' `
     -Location $Location `
     -TemplateParameterObject @{location=$Location; rgName=$RgName; vmAdminPassword=$AdminPassword}
