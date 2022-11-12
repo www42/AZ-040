@@ -7,9 +7,13 @@
 
 * [Microsoft Training and Certification](https://aka.ms/traincertposter) Poster
 
-* [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
+* **Learning Path** [Get started with Windows PowerShell](https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/)
 
-* Learning Path [Automate administrative tasks by using PowerShell](https://docs.microsoft.com/en-us/learn/paths/powershell/)
+* **Learning Path** [Automate administrative tasks by using PowerShell](https://docs.microsoft.com/en-us/learn/paths/powershell/)
+
+* **Learning Path** [Use variables, arrays, and hash tables in Windows PowerShell scripts](https://learn.microsoft.com/en-us/training/paths/use-variables-arrays-hash-tables-windows-powershell/)
+
+* [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
 
 * [Getting Started with PowerShell 3.0 Jump Start](https://www.youtube.com/playlist?list=PLyJiOytEPs4etH7Ujq7PU7jlOlHL-9RmV) with Jeff Snover and Jason Helmick (Playlist at Youtube)
 
