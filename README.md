@@ -48,9 +48,11 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 
 
 
-## Optional: Demo Environment in Microsoft Azure
+##  AZ-040 Labs
 
-* Prepare Azure [Demo Environment](PrepareDemoEnvironment.md)
+* Lab environment [go deploy](https://lms.godeploy.it/)
+
+* Optional: Microsoft Azure [Demo Environment](PrepareDemoEnvironment.md)
 
 
 
