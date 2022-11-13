@@ -12,7 +12,6 @@
 [LearningPath_10]: https://learn.microsoft.com/en-us/training/paths/manage-microsoft-365-services-use-windows-powershell/
 [LearningPath_11]: https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/
 
-[LearningPath_xx]: https://docs.microsoft.com/en-us/learn/paths/powershell/
 
 ## AZ-040 learning paths at Microsoft Learn
 
@@ -28,8 +27,7 @@
 * **Learning Path:** [Manage Microsoft 365 services by using Windows PowerShell][LearningPath_10]
 * **Learning Path:** [Create and manage background jobs and scheduled jobs in Windows PowerShell][LearningPath_11]
 
-* **Learning Path:** [Automate administrative tasks by using PowerShell][LearningPath_xx]
-
+All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us/users/tjaekel/collections/1dgkfrxyjw8wzj)
 
 ## Useful links
 
