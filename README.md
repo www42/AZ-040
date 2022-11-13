@@ -60,7 +60,7 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 
 <img src="https://download69118.blob.core.windows.net/anon/Profilbild.jpg" width="200"/>
 <a href="https://www.credly.com/badges/c1fe9e82-60d2-4268-8204-3709479a2bf9/public_url"><img src="https://download69118.blob.core.windows.net/anon/MCT-badge.png" width="130"/></a>
-<a href="https://www.credly.com/badges/fc4737d8-923a-4d37-8f1a-497c08a7c1ff/public_url"><img src="https://download69118.blob.core.windows.net/anon/AAI-badge.png" width="150"/></a>[]
+<a href="https://www.credly.com/badges/fc4737d8-923a-4d37-8f1a-497c08a7c1ff/public_url"><img src="https://download69118.blob.core.windows.net/anon/AAI-badge.png" width="150"/></a>
 
 [My certifications](https://www.credly.com/users/thomas-jakel)
 
