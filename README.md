@@ -1,17 +1,39 @@
 # AZ-040 Automating Administration with PowerShell
 
+[LearningPath_01]: https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/
+[LearningPath_02]: https://learn.microsoft.com/en-us/training/paths/maintain-system-administration-tasks-windows-powershell/
+[LearningPath_03]: https://learn.microsoft.com/en-us/training/paths/work-windows-powershell-pipeline/
+[LearningPath_04]: https://learn.microsoft.com/en-us/training/paths/work-powershell-providers-powershell-drives-windows-powershell/
+[LearningPath_05]: https://docs.microsoft.com/en-us/learn/paths/powershell/
+[LearningPath_06]: https://learn.microsoft.com/en-us/training/paths/use-variables-arrays-hash-tables-windows-powershell/
+[LearningPath_07]: https://learn.microsoft.com/en-us/training/paths/create-modify-script-use-windows-powershell/
+[LearningPath_08]: https://learn.microsoft.com/en-us/training/paths/administer-remote-computers-use-windows-powershell/
+[LearningPath_09]: https://learn.microsoft.com/en-us/training/paths/administer-remote-computers-use-windows-powershell/
+[LearningPath_10]: https://learn.microsoft.com/en-us/training/paths/manage-microsoft-365-services-use-windows-powershell/
+[LearningPath_11]: https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/
 
-## AZ-040 at Microsoft Learn
+
+## AZ-040 learning paths at Microsoft Learn
+
+* **Learning Path:** [Get started with Windows PowerShell][LearningPath_01]
+* **Learning Path:** [Maintain system administration tasks in Windows PowerShell][LearningPath_02]
+* **Learning Path:** [Work with the Windows PowerShell pipeline][LearningPath_03]
+* **Learning Path:** [Work with PowerShell providers and PowerShell drives in Windows PowerShell][LearningPath_04]
+* **Learning Path:** [Automate administrative tasks by using PowerShell][LearningPath_05]
+* **Learning Path:** [Use variables, arrays, and hash tables in Windows PowerShell scripts][LearningPath_06]
+* **Learning Path:** [Create and modify scripts by using Windows PowerShell][LearningPath_07]
+* **Learning Path:** [Administer remote computers by using Windows PowerShell][LearningPath_08]
+* **Learning Path:** [Manage cloud resources by using Windows PowerShell][LearningPath_09]
+* **Learning Path:** [Manage Microsoft 365 services by using Windows PowerShell][LearningPath_10]
+* **Learning Path:** [Create and manage background jobs and scheduled jobs in Windows PowerShell][LearningPath_11]
+
+
+
+## AZ-040 resources at Microsoft Learn
 
 * [Microsoft Learn](https://learn.microsoft.com)
 
 * [Microsoft Training and Certification](https://aka.ms/traincertposter) Poster
-
-* **Learning Path** [Get started with Windows PowerShell](https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/)
-
-* **Learning Path** [Automate administrative tasks by using PowerShell](https://docs.microsoft.com/en-us/learn/paths/powershell/)
-
-* **Learning Path** [Use variables, arrays, and hash tables in Windows PowerShell scripts](https://learn.microsoft.com/en-us/training/paths/use-variables-arrays-hash-tables-windows-powershell/)
 
 * [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
 
