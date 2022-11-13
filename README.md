@@ -27,7 +27,7 @@
 * **Learning Path:** [Manage Microsoft 365 services by using Windows PowerShell][LearningPath_10]
 * **Learning Path:** [Create and manage background jobs and scheduled jobs in Windows PowerShell][LearningPath_11]
 
-All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us/users/tjaekel/collections/1dgkfrxyjw8wzj)
+All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us/users/tjaekel/collections/1dgkfrxyjw8wzj).
 
 ## Useful links
 
