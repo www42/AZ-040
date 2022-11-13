@@ -8,7 +8,7 @@
 [LearningPath_06]: https://learn.microsoft.com/en-us/training/paths/use-variables-arrays-hash-tables-windows-powershell/
 [LearningPath_07]: https://learn.microsoft.com/en-us/training/paths/create-modify-script-use-windows-powershell/
 [LearningPath_08]: https://learn.microsoft.com/en-us/training/paths/administer-remote-computers-use-windows-powershell/
-[LearningPath_09]: https://learn.microsoft.com/en-us/training/paths/administer-remote-computers-use-windows-powershell/
+[LearningPath_09]: https://learn.microsoft.com/en-us/training/paths/manage-cloud-resources-use-windows-powershell/
 [LearningPath_10]: https://learn.microsoft.com/en-us/training/paths/manage-microsoft-365-services-use-windows-powershell/
 [LearningPath_11]: https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/
 
