@@ -29,6 +29,20 @@
 
 All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us/users/tjaekel/collections/1dgkfrxyjw8wzj).
 
+
+
+
+##  AZ-040 Labs
+
+* Lab environment [go deploy](https://lms.godeploy.it/)
+
+* Optional: [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
+
+* Optional: Microsoft Azure [Demo Environment](PrepareDemoEnvironment.md)
+
+
+
+
 ## Useful links
 
 [Microsoft Learn](https://learn.microsoft.com)
@@ -36,8 +50,6 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 [Microsoft Learn FAQ](https://learn.microsoft.com/en-us/training/support/faq?pivots=general)
 
 [Microsoft Training and Certification](https://aka.ms/traincertposter) Poster
-
-[AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
 
 [Getting Started with PowerShell 3.0 Jump Start](https://www.youtube.com/playlist?list=PLyJiOytEPs4etH7Ujq7PU7jlOlHL-9RmV) with Jeff Snover and Jason Helmick (Playlist at Youtube)
 
@@ -47,12 +59,6 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 
 
 
-
-##  AZ-040 Labs
-
-* Lab environment [go deploy](https://lms.godeploy.it/)
-
-* Optional: Microsoft Azure [Demo Environment](PrepareDemoEnvironment.md)
 
 
 
