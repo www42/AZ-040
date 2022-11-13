@@ -29,15 +29,22 @@
 
 
 
-## AZ-040 resources at Microsoft Learn
+## Useful links
 
-* [Microsoft Learn](https://learn.microsoft.com)
+[Microsoft Learn](https://learn.microsoft.com)
 
-* [Microsoft Training and Certification](https://aka.ms/traincertposter) Poster
+[Microsoft Learn FAQ](https://learn.microsoft.com/en-us/training/support/faq?pivots=general)
 
-* [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
+[Microsoft Training and Certification](https://aka.ms/traincertposter) Poster
 
-* [Getting Started with PowerShell 3.0 Jump Start](https://www.youtube.com/playlist?list=PLyJiOytEPs4etH7Ujq7PU7jlOlHL-9RmV) with Jeff Snover and Jason Helmick (Playlist at Youtube)
+[AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
+
+[Getting Started with PowerShell 3.0 Jump Start](https://www.youtube.com/playlist?list=PLyJiOytEPs4etH7Ujq7PU7jlOlHL-9RmV) with Jeff Snover and Jason Helmick (Playlist at Youtube)
+
+[John Savill's PowerShell masterclass](https://www.youtube.com/playlist?list=PLlVtbbG169nFq_hR7FcMYg32xsSAObuq8) (Playlist at Youtube)
+
+[Nobel Prize in Physics 2022](https://www.youtube.com/watch?v=-F8VFBrq1uU) mit Harald Lesch (YouTube)
+
 
 
 
@@ -73,8 +80,6 @@
 
 [Top](#az-040-automating-administration-with-powershell)
 
-
----
 
 
 
