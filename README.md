@@ -13,6 +13,10 @@
 [LearningPath_11]: https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/
 
 
+[Presentation PDF](https://github.com/www42/AZ-040/tree/master/pdf)
+
+---
+
 ## AZ-040 learning paths at Microsoft Learn
 
 * **Learning Path:** [Get started with Windows PowerShell][LearningPath_01]
