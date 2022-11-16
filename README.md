@@ -15,6 +15,8 @@
 
 [Presentation PDF](https://github.com/www42/AZ-040/tree/master/pdf)
 
+[Dienstag.ps1](https://github.com/www42/AZ-040/blob/1ebe2ece55a63515896a9358d0f5a7d648ebb8bc/dailyps/Dienstag.ps1)
+
 ---
 
 ## AZ-040 learning paths at Microsoft Learn
