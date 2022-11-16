@@ -99,10 +99,57 @@ Get-Command Get-MyWeihnachten
 
 # Module "MyToolbox" anlegen
 
-$ModuleRoot = $env:PSModulePath.Split(";")[0]
-$ModuleName = "MyToolbox"
-$ModuleFile = "$ModuleRoot/$ModuleName/$ModuleName.psm1"
+$ModuleRoot     = $env:PSModulePath.Split(";")[0]
+$ModuleName     = "MyToolbox"
+$ModuleFile     = "$ModuleRoot/$ModuleName/$ModuleName.psm1"
+$ModuleManifest = "$ModuleRoot/$ModuleName/$ModuleName.psd1"
+
+dir $ModuleManifest
+Get-Command -Name *Manifest*
+
+New-ModuleManifest -Path $ModuleManifest 
 
 New-Item -ItemType File -Path $ModuleFile -Force
 
 psEdit $ModuleFile
+psEdit $ModuleManifest
+
+
+# Execution Policy
+Get-ExecutionPolicy
+Set-ExecutionPolicy -ExecutionPolicy AllSigned -Force
+
+Import-Module -Name MyToolbox -Force
+
+
+# Code Signing
+
+$Cert = New-SelfSignedCertificate `
+    -CertStoreLocation Cert:\CurrentUser\My `
+    -Subject "cn=Paul Drude,dc=Adatum,dc=com" `
+    -TextExtension "2.5.29.37={text}1.3.6.1.5.5.7.3.3"
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
+Set-ExecutionPolicy -ExecutionPolicy AllSigned -Force
+Set-ExecutionPolicy -ExecutionPolicy Restricted -Force
+Get-ExecutionPolicy
+
+C:\tmp\Hello.ps1
+Set-AuthenticodeSignature -FilePath C:\tmp\Hello.ps1 -Certificate $Cert
+Get-AuthenticodeSignature -FilePath C:\tmp\Hello.ps1
+
+dir Cert:\CurrentUser\My  -CodeSigningCert
+
+
+
+
+# User input
+Get-Credential
+$Cred = Get-Credential
+$Cred
+
+$Cred.GetNetworkCredential() | fl *
+
+$secstring = ConvertTo-SecureString -String 'geheim123' -AsPlainText -Force
+$secstring | ConvertFrom-SecureString
