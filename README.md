@@ -13,9 +13,10 @@
 [LearningPath_11]: https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/
 
 
-[Presentation PDF](https://github.com/www42/AZ-040/tree/master/pdf)
+[Presentations PDF](https://github.com/www42/AZ-040/tree/master/pdf)
 
 [Dienstag.ps1](https://github.com/www42/AZ-040/blob/1ebe2ece55a63515896a9358d0f5a7d648ebb8bc/dailyps/Dienstag.ps1)
+
 [Mittwoch.ps1](https://github.com/www42/AZ-040/blob/57e44253d841f3f4fae1b17294c3809cad2edbde/dailyps/Mittwoch.ps1)
 
 [WMI Explorer](https://github.com/www42/AZ-040/tree/master/WMI_Explorer)
