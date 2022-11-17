@@ -76,3 +76,52 @@ ConvertTo-Miles -kilometer 10
 $DC1 = New-PSSession -ComputerName LON-DC1
 
 Import-Module -Name ConversionModule -PSSession $DC1
+
+
+
+# Hash tables
+$Table = @{Name = "Paul"; Size = 42; Color = "pink"}
+$Table | Get-Member
+
+$Table.Keys
+$Table.Values
+
+# Hash table --> Custom Object
+New-Object -TypeName psobject -Property $Table
+
+Get-date -day 24 -month 12
+
+# Param Splatting
+$Param = @{day = 24; month = 12}
+Get-Date @Param
+
+
+# Basic Array
+$Array = @()
+$Array.GetType()
+$Array.IsFixedSize
+$Array += "Peter"
+$Array += "Paul"
+$Array.Add("Mary")  # Does not work
+$Array += "Mary"
+$Array.Count
+$Array -= "Array"
+
+# Besser: ArrayList
+$ArrayList = [System.Collections.ArrayList]@()
+$ArrayList.GetType()
+$ArrayList.IsFixedSize
+# $ArrayList += "Peter"   # Vorsicht!  Es wird wieder zu Array!
+# $ArrayList += "Paul"
+
+$ArrayList.Add("Peter")
+$ArrayList.Add("Paul")
+$ArrayList.Add("Mary")
+
+$User = "Peter2","Paul2"
+$user.GetType()
+
+$ArrayList.Add($user)
+
+$ArrayList.Reverse()
+$ArrayList
