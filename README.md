@@ -12,6 +12,11 @@
 [LearningPath_10]: https://learn.microsoft.com/en-us/training/paths/manage-microsoft-365-services-use-windows-powershell/
 [LearningPath_11]: https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/
 
+---
+
+[Create Azure Pass Subscription](CreateAzurePassSubscription.md)
+
+---
 
 [Presentations PDF](https://github.com/www42/AZ-040/tree/master/pdf)
 
