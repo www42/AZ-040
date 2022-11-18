@@ -125,3 +125,23 @@ $ArrayList.Add($user)
 
 $ArrayList.Reverse()
 $ArrayList
+
+
+
+$n = 0
+$SaveLocationName = $env:PSModulePath.Split(";")
+$SaveLocationAnzahl = $env:PSModulePath.Split(";").count
+
+write-Host "-----------------------------------------------------------------"
+    while ($n -ne $SaveLocationAnzahl) {
+        Write-Host $n $SaveLocationName[$n]
+        $n++
+    }
+write-Host "-----------------------------------------------------------------"
+
+write-Output "-----------------------------------------------------------------"
+    while ($n -ne $SaveLocationAnzahl) {
+        Write-Output $n $SaveLocationName[$n] 
+        $n++
+    }
+write-Output "-----------------------------------------------------------------"
