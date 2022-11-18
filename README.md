@@ -26,6 +26,8 @@
 
 [Donnerstag.ps1](https://github.com/www42/AZ-040/blob/bbccd2a684d29123aed4421ec83f2c83ed829d07/dailyps/Donnerstag.ps1)
 
+[Freitag.ps1](https://github.com/www42/AZ-040/blob/d16ab9b7391235d77731e629fa0c641ea6d8b7f2/dailyps/Freitag.ps1)
+
 [WMI Explorer](https://github.com/www42/AZ-040/tree/master/WMI_Explorer)
 
 ---
