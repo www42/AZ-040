@@ -30,6 +30,8 @@
 
 [WMI Explorer](https://github.com/www42/AZ-040/tree/master/WMI_Explorer)
 
+[Start ISE](https://github.com/www42/AZ-040/blob/d6ccab0956c72fbb36a37bd584322dbfb1dcdb63/ps1/StartISE.ps1)
+
 ---
 
 ## AZ-040 learning paths at Microsoft Learn
