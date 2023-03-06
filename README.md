@@ -14,7 +14,7 @@
 
 
 
-## AZ-040 learning paths at Microsoft Learn
+## Learning paths at Microsoft Learn
 
 * **Learning Path 1:** [Get started with Windows PowerShell][LearningPath_01]
 * **Learning Path 2:** [Maintain system administration tasks in Windows PowerShell][LearningPath_02]
@@ -33,7 +33,7 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 
 
 
-##  AZ-040 Labs
+##  Labs
 
 * Lab environment [Skillable](https://brainymotion.learnondemand.net) (Register with training key)
 
