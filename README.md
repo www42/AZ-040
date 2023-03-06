@@ -12,41 +12,21 @@
 [LearningPath_10]: https://learn.microsoft.com/en-us/training/paths/manage-microsoft-365-services-use-windows-powershell/
 [LearningPath_11]: https://learn.microsoft.com/en-us/training/paths/create-manage-background-jobs-scheduled-windows-powershell/
 
----
 
-[Create Azure Pass Subscription](CreateAzurePassSubscription.md)
-
----
-
-[Presentations PDF](https://github.com/www42/AZ-040/tree/master/pdf)
-
-[Dienstag.ps1](https://github.com/www42/AZ-040/blob/1ebe2ece55a63515896a9358d0f5a7d648ebb8bc/dailyps/Dienstag.ps1)
-
-[Mittwoch.ps1](https://github.com/www42/AZ-040/blob/57e44253d841f3f4fae1b17294c3809cad2edbde/dailyps/Mittwoch.ps1)
-
-[Donnerstag.ps1](https://github.com/www42/AZ-040/blob/bbccd2a684d29123aed4421ec83f2c83ed829d07/dailyps/Donnerstag.ps1)
-
-[Freitag.ps1](https://github.com/www42/AZ-040/blob/d16ab9b7391235d77731e629fa0c641ea6d8b7f2/dailyps/Freitag.ps1)
-
-[WMI Explorer](https://github.com/www42/AZ-040/tree/master/WMI_Explorer)
-
-[Start ISE](https://github.com/www42/AZ-040/blob/d6ccab0956c72fbb36a37bd584322dbfb1dcdb63/ps1/StartISE.ps1)
-
----
 
 ## AZ-040 learning paths at Microsoft Learn
 
-* **Learning Path:** [Get started with Windows PowerShell][LearningPath_01]
-* **Learning Path:** [Maintain system administration tasks in Windows PowerShell][LearningPath_02]
-* **Learning Path:** [Work with the Windows PowerShell pipeline][LearningPath_03]
-* **Learning Path:** [Work with PowerShell providers and PowerShell drives in Windows PowerShell][LearningPath_04]
-* **Learning Path:** [Query management information by using Common Information Model and Windows Management Instrumentation][LearningPath_05]
-* **Learning Path:** [Use variables, arrays, and hash tables in Windows PowerShell scripts][LearningPath_06]
-* **Learning Path:** [Create and modify scripts by using Windows PowerShell][LearningPath_07]
-* **Learning Path:** [Administer remote computers by using Windows PowerShell][LearningPath_08]
-* **Learning Path:** [Manage cloud resources by using Windows PowerShell][LearningPath_09]
-* **Learning Path:** [Manage Microsoft 365 services by using Windows PowerShell][LearningPath_10]
-* **Learning Path:** [Create and manage background jobs and scheduled jobs in Windows PowerShell][LearningPath_11]
+* **Learning Path 1:** [Get started with Windows PowerShell][LearningPath_01]
+* **Learning Path 2:** [Maintain system administration tasks in Windows PowerShell][LearningPath_02]
+* **Learning Path 3:** [Work with the Windows PowerShell pipeline][LearningPath_03]
+* **Learning Path 4:** [Work with PowerShell providers and PowerShell drives in Windows PowerShell][LearningPath_04]
+* **Learning Path 5:** [Query management information by using Common Information Model and Windows Management Instrumentation][LearningPath_05]
+* **Learning Path 6:** [Use variables, arrays, and hash tables in Windows PowerShell scripts][LearningPath_06]
+* **Learning Path 7:** [Create and modify scripts by using Windows PowerShell][LearningPath_07]
+* **Learning Path 8:** [Administer remote computers by using Windows PowerShell][LearningPath_08]
+* **Learning Path 9:** [Manage cloud resources by using Windows PowerShell][LearningPath_09]
+* **Learning Path 10:** [Manage Microsoft 365 services by using Windows PowerShell][LearningPath_10]
+* **Learning Path 11:** [Create and manage background jobs and scheduled jobs in Windows PowerShell][LearningPath_11]
 
 All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us/users/tjaekel/collections/1dgkfrxyjw8wzj).
 
@@ -55,11 +35,10 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 
 ##  AZ-040 Labs
 
-* Lab environment [go deploy](https://lms.godeploy.it/)
+* Lab environment [Skillable](https://brainymotion.learnondemand.net) (Register with training key)
 
 * Optional: [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
 
-* Optional: Microsoft Azure [Demo Environment](PrepareDemoEnvironment.md)
 
 
 
