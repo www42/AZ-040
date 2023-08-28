@@ -39,7 +39,12 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 
 * Optional: [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
 
+* Change keybord layout to German
 
+```powershell
+Set-WinDefaultInputMethodOverride -InputTip '0407:00000407'
+logoff
+```
 
 
 
