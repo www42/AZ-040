@@ -20,7 +20,7 @@
 * **Learning Path 2:** [Maintain system administration tasks in Windows PowerShell][LearningPath_02]
 * **Learning Path 3:** [Work with the Windows PowerShell pipeline][LearningPath_03]
 * **Learning Path 4:** [Work with PowerShell providers and PowerShell drives in Windows PowerShell][LearningPath_04]
-* **Learning Path 5:** [Query management information by using Common Information Model and Windows Management Instrumentation][LearningPath_05]
+* **Learning Path 5:** [Query management information by using CIM and WMI][LearningPath_05]
 * **Learning Path 6:** [Use variables, arrays, and hash tables in Windows PowerShell scripts][LearningPath_06]
 * **Learning Path 7:** [Create and modify scripts by using Windows PowerShell][LearningPath_07]
 * **Learning Path 8:** [Administer remote computers by using Windows PowerShell][LearningPath_08]
