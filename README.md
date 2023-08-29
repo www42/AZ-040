@@ -34,6 +34,7 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 
 
 ##  Labs
+* [Windows Registry with PowerShell](registry/Registry.png)
 
 * Lab environment [Skillable](https://brainymotion.learnondemand.net) (Register with training key)
 
