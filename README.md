@@ -63,7 +63,9 @@ logoff
 
 [Nobel Prize in Physics 2022](https://www.youtube.com/watch?v=-F8VFBrq1uU) mit Harald Lesch (YouTube)
 
+[Alles, was Sie schon immer über Arrays wissen wollten](https://learn.microsoft.com/de-de/powershell/scripting/learn/deep-dives/everything-about-arrays)
 
+[Alles, was Sie schon immer über Hashtabellen wissen wollten](https://learn.microsoft.com/de-de/powershell/scripting/learn/deep-dives/everything-about-hashtable)
 
 
 
