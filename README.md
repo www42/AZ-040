@@ -1,5 +1,13 @@
 # AZ-040 Automating Administration with PowerShell
 
+[Give Feedback!](https://www.metricsthatmatter.com/url/u.aspx?807947E3F201328513)
+
+[Grab your badge (Microsoft Learn)](https://learn.microsoft.com/users/me/achievements?redeem=J6LRZ5&WT.mc_id=ilt_partner_webpage_wwl&ocid=5189688)
+
+[Get the presentation](pdf)
+
+---
+
 [LearningPath_01]: https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/
 [LearningPath_02]: https://learn.microsoft.com/en-us/training/paths/maintain-system-administration-tasks-windows-powershell/
 [LearningPath_03]: https://learn.microsoft.com/en-us/training/paths/work-windows-powershell-pipeline/
