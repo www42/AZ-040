@@ -35,9 +35,6 @@ All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us
 
 
 ##  Labs
-* [Windows Registry with PowerShell](registry/Registry.png)
-
-* Lab environment [Skillable](https://brainymotion.learnondemand.net) (Register with training key)
 
 * Optional: [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
 
@@ -54,15 +51,11 @@ logoff
 
 [Microsoft Learn](https://learn.microsoft.com)
 
-[Microsoft Learn FAQ](https://learn.microsoft.com/en-us/training/support/faq?pivots=general)
-
 [Microsoft Training and Certification](https://aka.ms/traincertposter) Poster
 
 [Getting Started with PowerShell 3.0 Jump Start](https://www.youtube.com/playlist?list=PLyJiOytEPs4etH7Ujq7PU7jlOlHL-9RmV) with Jeff Snover and Jason Helmick (Playlist at Youtube)
 
 [John Savill's PowerShell masterclass](https://www.youtube.com/playlist?list=PLlVtbbG169nFq_hR7FcMYg32xsSAObuq8) (Playlist at Youtube)
-
-[Nobel Prize in Physics 2022](https://www.youtube.com/watch?v=-F8VFBrq1uU) mit Harald Lesch (YouTube)
 
 [Alles, was Sie schon immer über Arrays wissen wollten](https://learn.microsoft.com/de-de/powershell/scripting/learn/deep-dives/everything-about-arrays)
 
