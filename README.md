@@ -29,8 +29,9 @@
 * **Learning Path 10:** [Manage Microsoft 365 services by using Windows PowerShell][LearningPath_10]
 * **Learning Path 11:** [Create and manage background jobs and scheduled jobs in Windows PowerShell][LearningPath_11]
 
-All 11 learning paths in a single [collection](https://learn.microsoft.com/en-us/users/tjaekel/collections/1dgkfrxyjw8wzj).
+---
 
+[Azure Sandbox (Create VM)](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/7-exercise-create-azure-resource)
 
 
 
