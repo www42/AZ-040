@@ -31,7 +31,6 @@
 
 ---
 
-[Azure Sandbox (Create VM)](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/7-exercise-create-azure-resource)
 
 
 
