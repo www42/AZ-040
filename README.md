@@ -36,6 +36,8 @@
 
 ##  Labs
 
+[Go Deploy](https://lms.godeploy.it)
+
 * Optional: [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
 
 * Change keybord layout to German
