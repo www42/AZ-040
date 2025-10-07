@@ -47,6 +47,9 @@ Set-WinDefaultInputMethodOverride -InputTip '0407:00000407'
 logoff
 ```
 
+## Next ETC Event
+
+[Worst Cyber Nightmares coming true  Paula Januszkiewicz](https://www.etc.at/webinar/worst-cyber-nightmares-coming-true/)
 
 
 ## Useful links
@@ -63,7 +66,7 @@ logoff
 
 [Alles, was Sie schon immer über Hashtabellen wissen wollten](https://learn.microsoft.com/de-de/powershell/scripting/learn/deep-dives/everything-about-hashtable)
 
-
+[PowerShell About Files Online](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about?view=powershell-7.5)
 
 
 
