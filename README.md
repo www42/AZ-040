@@ -47,6 +47,10 @@ Set-WinDefaultInputMethodOverride -InputTip '0407:00000407'
 logoff
 ```
 
+## WMI Explorer
+
+[Download](https://download69118.blob.core.windows.net/anon/WmiExplorer.exe)
+
 ## Next ETC Event
 
 [Worst Cyber Nightmares coming true  Paula Januszkiewicz](https://www.etc.at/webinar/worst-cyber-nightmares-coming-true/)
