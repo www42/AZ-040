@@ -51,6 +51,9 @@ logoff
 
 [Download](https://download69118.blob.core.windows.net/anon/WmiExplorer.exe)
 
+<br>
+
+
 ## Next ETC Event
 
 [Worst Cyber Nightmares coming true  Paula Januszkiewicz](https://www.etc.at/webinar/worst-cyber-nightmares-coming-true/)
