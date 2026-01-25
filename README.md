@@ -53,7 +53,7 @@
 
 * Optional: [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
 
-* Change keybord layout to German
+* Change keybord layout to German:
 
 ```powershell
 Set-WinDefaultInputMethodOverride -InputTip '0407:00000407'
@@ -121,7 +121,7 @@ logoff
 
 ---
 
-[Top](#az-040-automating-administration-with-powershell)
+[Top](#az-040-automate-administration-with-powershell)
 
 
 
@@ -204,4 +204,4 @@ logoff
 
 ---
 
-[Top](#az-040-automating-administration-with-powershell)
+[Top](#az-040-automate-administration-with-powershell)
