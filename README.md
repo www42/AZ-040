@@ -60,9 +60,7 @@ Set-WinDefaultInputMethodOverride -InputTip '0407:00000407'
 logoff
 ```
 
-## WMI Explorer
-
-[Download](https://download69118.blob.core.windows.net/anon/WmiExplorer.exe)
+* WMI Explorer [Download](https://download69118.blob.core.windows.net/anon/WmiExplorer.exe)
 
 <br>
 
