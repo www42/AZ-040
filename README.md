@@ -85,6 +85,10 @@ logoff
 
 [John Savill's PowerShell masterclass](https://www.youtube.com/playlist?list=PLlVtbbG169nFq_hR7FcMYg32xsSAObuq8) (Playlist at Youtube)
 
+[PowerShell - Wikipedia](https://en.wikipedia.org/wiki/PowerShell)
+
+[PowerShell Gallery](https://www.powershellgallery.com/)
+
 [Alles, was Sie schon immer über Arrays wissen wollten](https://learn.microsoft.com/de-de/powershell/scripting/learn/deep-dives/everything-about-arrays)
 
 [Alles, was Sie schon immer über Hashtabellen wissen wollten](https://learn.microsoft.com/de-de/powershell/scripting/learn/deep-dives/everything-about-hashtable)
