@@ -16,3 +16,4 @@ $Lab = '3'
 $Url = "https://raw.githubusercontent.com/www42/AZ-040/master/Labs/Lab$Lab.ps1"
 $Url = "https://raw.githubusercontent.com/www42/az-040/master/labs/Lab3.ps1"
 Invoke-WebRequest -UseBasicParsing -Uri $Url | % Content
+
