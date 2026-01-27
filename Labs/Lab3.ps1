@@ -1,11 +1,11 @@
 # Lab 3: Using PowerShell pipeline
-# =================================
 
-# Lab 3 Teil 1 (historisch gewachsen)
+# ---> LON-CL1
 
+# Lab 3 Teil 1 
 
 # Exercise 1: Selecting, sorting, and displaying data using Powershell Binding
-# ---------------------------------------------------
+# ----------------------------------------------------------------------------
 # Task 1: Display the current day of the year
 help *date* 
 #  --> Get-Date
