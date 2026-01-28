@@ -34,8 +34,6 @@ Get-CimInstance -Class Win32_UserAccount | Format-Table -Property Caption,Domain
 # Task 2: Query BIOS information
 Get-CimClass -ClassName *bios*
 Get-CimInstance -Class Win32_BIOS
-Get-CimInstance -Classname Win32_NetworkAdapterConfiguration
-Get-CimInstance -Classname Win32_NetworkAdapterConfiguration -ComputerName LON-DC1
 
 # Task 3: Query network adapter configuration information
 Get-CimInstance -Classname Win32_NetworkAdapterConfiguration
