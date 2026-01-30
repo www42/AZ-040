@@ -2,102 +2,62 @@
 
 # --->LON-CL1
 
-# Exercise 1: Managing users and groups in Azure AD
-# -------------------------------------------------
-# Task 1: Connect to Azure AD
-Install-Module AzureAD
-Connect-AzureAD
-Get-AzureADUser
+# Exercise 1: Managing users and groups in Microsoft Entra ID
+# -----------------------------------------------------------
+# Task 1: Connect to Microsoft Entra ID
+
+# Wichtig! Windows PowerShell console (nicht ISE!) [ISE kann nicht WAM]
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Install-Module Microsoft.Graph -Scope CurrentUser  # Say yes to NuGet package provider
+Get-InstalledModule Microsoft.Graph
+
+Connect-MgGraph -Scopes "User.ReadWrite.All", "Application.ReadWrite.All", "Sites.ReadWrite.All", "Directory.ReadWrite.All", "Group.ReadWrite.All", "RoleManagement.ReadWrite.Directory"
+# Do *not* consent on behalf of your organisation
+# Say 'No, this app only'
+# Powershell ISE does not work with WAM. Use -UseDeviceCode
+
+Get-MgUser
 
 # Task 2: Create a new administrative user
-$PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-$PasswordProfile.Password = "<password>"
-$verifiedDomain = (Get-AzureADTenantDetail).VerifiedDomains[0].Name
-New-AzureADUser -DisplayName "Noreen Riggs" -UserPrincipalName Noreen@$verifiedDomain -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName Noreen
-$user = Get-AzureADUser -ObjectID Noreen@$verifiedDomain
-$role = Get-AzureADDirectoryRole | Where {$_.displayName -eq 'Global Administrator'}
-Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId $user.ObjectID
-Get-AzureADDirectoryRoleMember -ObjectId $role.ObjectId
+$verifiedDomain = (Get-MgOrganization).VerifiedDomains[0].Name
+$PasswordProfile = @{  
+    "Password"="<password>";  
+    "ForceChangePasswordNextSignIn"=$true  
+}
+New-MgUser -DisplayName "Noreen Riggs" -UserPrincipalName "Noreen@$verifiedDomain" -AccountEnabled -PasswordProfile $PasswordProfile -MailNickName "Noreen"
+$user = Get-MgUser -UserId "Noreen@$verifiedDomain"
+$role = Get-MgDirectoryRole | Where {$_.displayName -eq 'Global Administrator'}
+
+$OdataId = "https://graph.microsoft.com/v1.0/directoryObjects/" + $user.id  
+New-MgDirectoryRoleMemberByRef -DirectoryRoleId $role.id -OdataId $OdataId    
+Get-MgDirectoryRoleMember -DirectoryRoleId $role.id
+#  UPN z. B.  Noreen@LODSA341487.onmicrosoft.com
 
 # Task 3: Create and license a new user
-New-AzureADUser -DisplayName "Allan Yoo" -UserPrincipalName Allan@$verifiedDomain -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName Allan
-Set-AzureADUser -ObjectId Allan@$verifiedDomain -UsageLocation US
-Get-AzureADSubscribedSku | FL
-$SkuId = (Get-AzureADSubscribedSku | Where SkuPartNumber -eq "ENTERPRISEPREMIUM").SkuID
-$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
-$License.SkuId = $SkuId
-$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
-$LicensesToAssign.AddLicenses = $License
-Set-AzureADUserLicense -ObjectId Allan@$verifiedDomain -AssignedLicenses $LicensesToAssign
+New-MgUser -DisplayName "Allan Yoo" -UserPrincipalName Allan@$verifiedDomain -AccountEnabled -PasswordProfile $PasswordProfile -MailNickName "Allan"
+Update-MgUser -UserId Allan@$verifiedDomain -UsageLocation US
+Get-MgSubscribedSku | FL
+$SkuId = (Get-MgSubscribedSku | Where-Object { $_.SkuPartNumber -eq "Office_365_E5_(no_Teams)" }).SkuId
+Set-MgUserLicense -UserId Allan@$verifiedDomain -AddLicenses @{SkuId = $SkuId} -RemoveLicenses @()
+
 
 # Task 4: Create and populate a group
-Get-AzureADGroup
-New-AzureADGroup -DisplayName "Sales Security Group" -SecurityEnabled $true -MailEnabled $false -MailNickName "SalesSecurityGroup"
-$group = Get-AzureAdGroup -SearchString "Sales Security"
-$user = Get-AzureADUser -ObjectId Allan@$verifiedDomain
-Add-AzureADGroupMember -ObjectId $group.ObjectId -RefObjectId $user.ObjectId
-Get-AzureADGroupMember -ObjectId $group.ObjectId
+Get-MgGroup
+New-MgGroup -DisplayName "Sales Security Group" -MailEnabled:$False  -MailNickName "SalesSecurityGroup" -SecurityEnabled
+$group = Get-MgGroup -ConsistencyLevel eventual -Count groupCount -Search '"DisplayName:Sales Security"'
+$user = Get-MgUser -UserId Allan@$verifiedDomain
+New-MgGroupMember -GroupId $group.id -DirectoryObjectId $user.id
+Get-MgGroupMember -GroupId $group.id
+#  UPN z. B.  Allan@LODSA341487.onmicrosoft.com
 
 
 
 # Exercise 2: Managing Exchange Online
 # ------------------------------------
-# Task 1: Connect to Exchange Online
-Install-Module ExchangeOnlineManagement
-Connect-ExchangeOnline
-Get-EXOMailbox
-
-# Task 2: Create a room mailbox
-New-Mailbox -Room -Name BoardRoom
-Set-CalendarProcessing BoardRoom -AutomateProcessing AutoAccept
-
-# Task 3: Verify room resource booking
-Start-Process https://outlook.office.com
-#   Sign in as Allan Woo and change your password as instructed.
-#   When prompted to stay signed in, select No.
-#   From the menu bar, select Calendar, and then select New event.
-#   In the Add a title box, Enter Staff Meeting.
-#   In the Invite attendees box, Enter BoardRoom, select BoardRoom, select the first available time, and then select Send.
-#   From the menu, select Mail.
-#   Verify that Allan has received a response from BoardRoom that the meeting request was accepted.
-
-
 
 # Exercise 3: Managing SharePoint Online
 # --------------------------------------
-# Task 1: Connect to SharePoint Online
-Install-Module -Name Microsoft.Online.SharePoint.PowerShell
-$verifiedDomainShort = $verifiedDomain.Split(".")[0]
-Connect-SPOService -Url "https://$verifiedDomainShort-admin.sharepoint.com"
-# Sign in as Noreen Riggs and change your password as instructed.
-Get-SPOSite
-
-# Task 2: Create a new site
-Get-SPOWebTemplate
-New-SPOSite -Url https://$verifiedDomainShort.sharepoint.com/sites/Sales -Owner noreen@$verifiedDomain -StorageQuota 256 -Template EHS#1 -NoWait
-Get-SPOSite | FL Url,Status
-Disconnect-SPOService
-
-
 
 # Exercise 4: Managing Microsoft Teams
 # ------------------------------------
-# Task 1: Connect to Microsoft Teams
-Install-Module MicrosoftTeams
-Connect-MicrosoftTeams
-# Sign in as your admin user. Notice that you can't use Noreen for this activity, because you need a Microsoft Teams license to create teams.
-Get-Team
-#  there are no existing teams
-
-# Task 2: Create a new team
-New-Team -DisplayName "Sales Team" -MailNickName "SalesTeam"
-$team = Get-Team -DisplayName "Sales Team"
-$team | FL
-Add-TeamUser -GroupId $team.GroupId -User Allan@$verifiedDomain -Role Member
-Get-TeamUser -GroupId $team.GroupId
-
-## Task 3: Verify access to the team
-Start-Process https://teams.microsoft.com
-# Sign in as Allan Yoo
-# Close the Bring your team together window, and then verify that Sales Team is listed.
-# Select New conversation, Enter "Prices are increasing 10% at month end", and then select Enter.

@@ -33,14 +33,15 @@
 
 ## Seminar 26. - 30.01.2026
 
+<!--
+-->
+
 [Präsentation](pdf/)
 
-<!--
 [Claim your badges](https://learn.microsoft.com/de-de/users/me/achievements?WT.mc_id=ilt_partner_webpage_wwl&ocid=2013202&redeem=DLPQ7Q&WT.mc_id=ilt_partner_webpage_wwl&ocid=2013202)
 
 [Give feedback](https://www.metricsthatmatter.com/url/u.aspx?59098989B232223552)
 
--->
 <br>
 
 ##  Labs
