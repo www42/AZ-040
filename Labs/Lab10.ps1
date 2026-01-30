@@ -55,6 +55,20 @@ Get-MgGroupMember -GroupId $group.id
 
 # Exercise 2: Managing Exchange Online
 # ------------------------------------
+# Task 1: Connect to Exchange Online
+Install-Module ExchangeOnlineManagement -force
+Connect-ExchangeOnline
+Get-EXOMailbox
+
+# Task 2: Create a room mailbox
+New-Mailbox -Room -Name BoardRoom
+Set-CalendarProcessing BoardRoom -AutomateProcessing AutoAccept
+
+# Task 3: Verify room resource booking
+# https://outlook.office.com
+# Sign in as Allan Yoo by using the UserPrincipalName as the user name and providing the password you recorded in the previous exercise of this lab.
+# From the menu bar, select Calendar, and then select New event.
+
 
 # Exercise 3: Managing SharePoint Online
 # --------------------------------------
