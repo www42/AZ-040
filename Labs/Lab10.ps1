@@ -38,6 +38,7 @@ Get-MgDirectoryRoleMember -DirectoryRoleId $role.id
 New-MgUser -DisplayName "Allan Yoo" -UserPrincipalName Allan@$verifiedDomain -AccountEnabled -PasswordProfile $PasswordProfile -MailNickName "Allan"
 Update-MgUser -UserId Allan@$verifiedDomain -UsageLocation US
 Get-MgSubscribedSku | FL
+Get-MgSubscribedSku | FT SkuPartNumber,ConsumedUnits
 $SkuId = (Get-MgSubscribedSku | Where-Object { $_.SkuPartNumber -eq "Office_365_E5_(no_Teams)" }).SkuId
 Set-MgUserLicense -UserId Allan@$verifiedDomain -AddLicenses @{SkuId = $SkuId} -RemoveLicenses @()
 
@@ -70,8 +71,40 @@ Set-CalendarProcessing BoardRoom -AutomateProcessing AutoAccept
 # From the menu bar, select Calendar, and then select New event.
 
 
+
+
 # Exercise 3: Managing SharePoint Online
 # --------------------------------------
+# Task 1: Connect to SharePoint Online
+Install-Module -Name Microsoft.Online.SharePoint.PowerShell -Scope CurrentUser
+$verifiedDomainShort = $verifiedDomain.Split(".")[0]
+Connect-SPOService -Url "https://$verifiedDomainShort-admin.sharepoint.com"
+Get-SPOSite
+
+# Task 2: Create a new site
+Get-SPOWebTemplate
+New-SPOSite -Url https://$verifiedDomainShort.sharepoint.com/sites/Sales -Owner noreen@$verifiedDomain -StorageQuota 256 -Template EHS#1 -NoWait
+Get-SPOSite | FL Url,Status
+
+Disconnect-SPOService
+
+
+
 
 # Exercise 4: Managing Microsoft Teams
 # ------------------------------------
+# Task 1: Connect to Microsoft Teams
+Install-Module -Name MicrosoftTeams -Force -AllowClobber
+Connect-MicrosoftTeams
+Get-Team
+
+# Task 2: Create a new team
+New-Team -DisplayName "Sales Team" -MailNickName "SalesTeam"
+$team = Get-Team -DisplayName "Sales Team"
+$team | FL
+$verifiedDomain = (Get-MgOrganization).VerifiedDomains[0].Name
+Add-TeamUser -GroupId $team.GroupId -User Allan@$verifiedDomain -Role Member
+Get-TeamUser -GroupId $team.GroupId
+
+
+# Task 3: Verify access to the team
