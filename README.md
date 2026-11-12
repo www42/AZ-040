@@ -31,6 +31,10 @@
 
 ---
 
+## 20 Jahre PowerShell Party
+
+[PowerShell 20 - One Idea That Changed IT Forever - YouTube](https://www.youtube.com/watch?v=P_unk_59wWs)
+
 <!--
 ## Seminar 13. - 17.04.2026
 
@@ -49,8 +53,8 @@
 [Lab environment Skillable](https://alh.learnondemand.net/Class/732300) 
 -->
 
-<!--
 [Go Deploy](https://lms.godeploy.it)
+<!--
 -->
 
 * Optional: [AZ-040 Repo at GitHub](https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell)
