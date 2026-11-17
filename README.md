@@ -31,15 +31,11 @@
 
 ---
 
-## 20 Jahre PowerShell Party
-
-[PowerShell 20 - One Idea That Changed IT Forever - YouTube](https://www.youtube.com/watch?v=P_unk_59wWs)
-
-<!--
-## Seminar 13. - 17.04.2026
+## Seminar 16. - 20.11.2026
 
 [Präsentation](pdf/)
 
+<!--
 [Claim your badges](https://)
 
 [Give feedback](https://)
